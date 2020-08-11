@@ -1,0 +1,14 @@
+08-10-2020 20:58:37.617 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-10-2020 20:58:37.708 INFO  TestCases.TestRecipesPage - test_shouldDisplayText_whenUserInLandingPage - Test Passed
+08-10-2020 20:58:37.974 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-10-2020 20:58:37.974 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------
+08-10-2020 20:58:40.711 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-10-2020 20:58:41.138 INFO  TestCases.TestRecipesPage - test_shouldDisplayRecipesList_whenUserInLandingPage - Test Passed
+08-10-2020 20:58:41.414 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-10-2020 20:58:41.414 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------
+08-10-2020 20:58:44.117 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-10-2020 20:58:44.150 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (af490189fe156837a32cf6192b3ab90b)] -> xpath: //button[contains(.,'New Recipe')]]
+08-10-2020 20:58:45.007 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (af490189fe156837a32cf6192b3ab90b)] -> xpath: //button[contains(text(), 'Save')]]
+08-10-2020 20:58:45.178 INFO  TestCases.TestRecipesPage - test_shouldAddNewRecipe_whenCorrectValuesEntered - Test Passed
+08-10-2020 20:58:45.487 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-10-2020 20:58:45.487 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------

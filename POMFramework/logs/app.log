@@ -1,0 +1,16 @@
+08-10-2020 21:12:49.543 INFO  TestCases.TestShoppingListPage - beforeClass - Application launched successfully
+08-10-2020 21:12:49.621 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (dcaf37b312ae7c283b8a0620f8f278cf)] -> xpath: //a[contains(text(), 'Shopping List')]]
+08-10-2020 21:12:49.996 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (dcaf37b312ae7c283b8a0620f8f278cf)] -> xpath: //button[contains(text(),'Add')]]
+08-10-2020 21:12:50.101 ERROR main.utilities.TestNGListener - onTestFailure - Test failed --> [TestResult name=test_shouldAddNewIngredient_whenValidNameAndAmountEntered status=FAILURE method=TestShoppingListPage.test_shouldAddNewIngredient_whenValidNameAndAmountEntered()[pri:1, instance:TestCases.TestShoppingListPage@1ff4931d] output={null}]
+08-10-2020 21:12:50.405 INFO  TestCases.TestShoppingListPage - tearDown - Browser terminated
+08-10-2020 21:12:50.406 INFO  TestCases.TestShoppingListPage - tearDown - ----------------------------------------------
+08-10-2020 21:12:53.886 INFO  TestCases.TestShoppingListPage - beforeClass - Application launched successfully
+08-10-2020 21:12:53.916 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (d4608d8575321e4a5d2515084e8d34a9)] -> xpath: //a[contains(text(), 'Shopping List')]]
+08-10-2020 21:12:54.222 INFO  TestCases.TestShoppingListPage - test_shouldDisableAddButton_WhenOnlyNameIsEngered - Test passed
+08-10-2020 21:12:54.416 INFO  TestCases.TestShoppingListPage - tearDown - Browser terminated
+08-10-2020 21:12:54.416 INFO  TestCases.TestShoppingListPage - tearDown - ----------------------------------------------
+08-10-2020 21:12:58.013 INFO  TestCases.TestShoppingListPage - beforeClass - Application launched successfully
+08-10-2020 21:12:58.049 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (8fd1eff4c96b01e0e00de30d3c9fc990)] -> xpath: //a[contains(text(), 'Shopping List')]]
+08-10-2020 21:12:58.415 INFO  TestCases.TestShoppingListPage - test_shouldDisableAddButton_WhenAmountIsNotNumber - Test passed
+08-10-2020 21:12:58.668 INFO  TestCases.TestShoppingListPage - tearDown - Browser terminated
+08-10-2020 21:12:58.668 INFO  TestCases.TestShoppingListPage - tearDown - ----------------------------------------------

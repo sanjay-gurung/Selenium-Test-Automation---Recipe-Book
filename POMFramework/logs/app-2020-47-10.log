@@ -1,0 +1,7 @@
+08-10-2020 10:47:34.634 INFO  TestCases.TestShoppingListPage -Application launched successfully
+08-10-2020 10:47:35.440 ERROR TestCases.TestShoppingListPage -Test error message
+08-10-2020 10:47:35.441 FATAL TestCases.TestShoppingListPage -Test fatal message
+08-10-2020 10:47:35.441 DEBUG TestCases.TestShoppingListPage -Test debug message
+08-10-2020 10:47:35.441 INFO  TestCases.TestShoppingListPage -Test info message
+08-10-2020 10:47:39.082 INFO  TestCases.TestShoppingListPage -Browser terminated
+08-10-2020 10:47:39.084 INFO  TestCases.TestShoppingListPage --------------------------------------

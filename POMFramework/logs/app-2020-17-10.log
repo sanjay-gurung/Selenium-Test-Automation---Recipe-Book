@@ -1,0 +1,4 @@
+08-10-2020 12:17:03.291 INFO  TestCases.TestShoppingListPage beforeClass -Application launched successfully
+08-10-2020 12:17:03.721 INFO  TestCases.TestShoppingListPage shoppingList_shouldDisableAddButton_WhenAmountIsNotNumber -Test passed
+08-10-2020 12:17:06.321 INFO  TestCases.TestShoppingListPage tearDown -Browser terminated
+08-10-2020 12:17:06.322 INFO  TestCases.TestShoppingListPage tearDown --------------------------------------

@@ -1,0 +1,10 @@
+08-10-2020 14:57:40.090 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-10-2020 14:57:40.183 INFO  TestCases.TestRecipesPage - test_shouldDisplayText_whenUserInLandingPage - Test Passed
+08-10-2020 14:57:42.899 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-10-2020 14:57:42.899 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------
+08-10-2020 14:57:48.358 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-10-2020 14:57:48.815 INFO  TestCases.TestRecipesPage - test_shouldDisplayRecipesList_whenUserInLandingPage - Test Passed
+08-10-2020 14:57:52.445 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-10-2020 14:57:52.445 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------
+08-10-2020 14:57:57.418 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-10-2020 14:57:58.458 INFO  TestCases.TestRecipesPage - test_shouldAddNewRecipe_whenCorrectValuesEntered - Test Passed

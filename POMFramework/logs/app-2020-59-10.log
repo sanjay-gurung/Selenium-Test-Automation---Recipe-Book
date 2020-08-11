@@ -1,0 +1,6 @@
+08-10-2020 18:59:37.785 INFO  main.utilities.WebEventListener - beforeNavigateTo - Trying to navigate to: https://recipe-book-7a044.web.app/recipes
+08-10-2020 18:59:39.292 INFO  TestCases.TestShoppingListPage - beforeClass - Application launched successfully
+08-10-2020 18:59:39.355 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[FirefoxDriver: firefox on MAC (446dbb34-62f1-6d42-b776-44f2908db620)] -> xpath: //a[contains(text(), 'Shopping List')]]
+08-10-2020 18:59:39.949 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[FirefoxDriver: firefox on MAC (446dbb34-62f1-6d42-b776-44f2908db620)] -> xpath: //button[contains(text(),'Add')]]
+08-10-2020 18:59:43.835 INFO  TestCases.TestShoppingListPage - tearDown - Browser terminated
+08-10-2020 18:59:43.835 INFO  TestCases.TestShoppingListPage - tearDown - ----------------------------------------------
