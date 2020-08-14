@@ -47,22 +47,22 @@ public class TestShoppingListPage extends BaseSetup {
 	  log.info("Test passed");
   }
   
-//  @Test(priority=2)
-//  public void test_shouldDisableAddButton_WhenOnlyNameIsEngered() {
-//	  recipesPage.clickOnShoppingListTab();
-//	  shoppingListPage.enterIngredientName("masala");
-//	  Assert.assertFalse(shoppingListPage.getAddButton().isEnabled());
-//	  log.info("Test passed");
-//  }
-//  
-//  @Test(priority=3)
-//  public void test_shouldDisableAddButton_WhenAmountIsNotNumber() {
-//	  recipesPage.clickOnShoppingListTab();
-//	  shoppingListPage.enterIngredientName("masala");
-//	  shoppingListPage.enterIngredientName("abcd");
-//	  Assert.assertFalse(shoppingListPage.getAddButton().isEnabled());
-//	  log.info("Test passed");
-//  }
+  @Test(priority=2)
+  public void test_shouldDisableAddButton_WhenOnlyNameIsEngered() {
+	  recipesPage.clickOnShoppingListTab();
+	  shoppingListPage.enterIngredientName("masala");
+	  Assert.assertFalse(shoppingListPage.getAddButton().isEnabled());
+	  log.info("Test passed");
+  }
+  
+  @Test(priority=3)
+  public void test_shouldDisableAddButton_WhenAmountIsNotNumber() {
+	  recipesPage.clickOnShoppingListTab();
+	  shoppingListPage.enterIngredientName("masala");
+	  shoppingListPage.enterIngredientName("abcd");
+	  Assert.assertFalse(shoppingListPage.getAddButton().isEnabled());
+	  log.info("Test passed");
+  }
   
   @AfterMethod
   public void tearDown() {
