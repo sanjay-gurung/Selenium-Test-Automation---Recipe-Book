@@ -4,10 +4,12 @@ import org.testng.annotations.Test;
 
 import main.base.BaseSetup;
 import main.pages.RecipesPage_POM;
+import main.utilities.TestUtilities;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 
 import java.util.concurrent.TimeUnit;
@@ -59,6 +61,26 @@ public class TestRecipesPage extends BaseSetup {
 	  String newRecipe = driver.findElement(By.xpath("//h4[contains(text(), 'momo')]")).getText();
 	  Assert.assertEquals(newRecipe, "momo");
 	  log.info("Test Passed");
+  }
+  
+  @DataProvider
+  public static Object[][] getTestDataForNewRecipe() throws Exception {
+	  Object data[][] = null;
+	  try {
+		  data = TestUtilities.getTestDataFromExcel("newRecipes");
+	  } catch (Exception e) {
+		  e.printStackTrace();
+		  System.out.println("error getting data from excel file");
+	  }
+	  return data;
+  }
+  
+  @Test(priority=4, dataProvider="getTestDataForNewRecipe")
+  public void test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother(String name, String url, String description) {
+	  recipesPage.navigateToNewRecipe();
+	  recipesPage.enterRecipeName(name);
+	  recipesPage.enterRecipeUrl(url);
+	  recipesPage.enterRecipeDescription(description);
   }
   
   @AfterMethod

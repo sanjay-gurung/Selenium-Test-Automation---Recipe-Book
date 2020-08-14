@@ -1,0 +1,12 @@
+08-13-2020 19:54:23.300 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-13-2020 19:54:23.363 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (3b320facc567014acd9ee3935c77a2a3)] -> xpath: //button[contains(.,'New Recipe')]]
+08-13-2020 19:54:24.056 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-13-2020 19:54:24.056 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------
+08-13-2020 19:54:26.627 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-13-2020 19:54:26.654 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (67d3a2ff128bf94e506f789ac7369859)] -> xpath: //button[contains(.,'New Recipe')]]
+08-13-2020 19:54:27.601 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-13-2020 19:54:27.602 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------
+08-13-2020 19:54:30.183 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-13-2020 19:54:30.209 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (68f0647f7c8794ff2941d32e01f141ea)] -> xpath: //button[contains(.,'New Recipe')]]
+08-13-2020 19:54:31.171 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-13-2020 19:54:31.171 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------

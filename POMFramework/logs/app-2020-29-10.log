@@ -1,8 +1,0 @@
-08-10-2020 13:29:03.991 INFO  TestCases.TestShoppingListPage beforeClass -Application launched successfully
-08-10-2020 13:29:04.422 INFO  TestCases.TestShoppingListPage shoppingList_shouldDisableAddButton_WhenOnlyNameIsEngered -Test passed
-08-10-2020 13:29:07.022 INFO  TestCases.TestShoppingListPage tearDown -Browser terminated
-08-10-2020 13:29:07.022 INFO  TestCases.TestShoppingListPage tearDown --------------------------------------
-08-10-2020 13:29:13.791 INFO  TestCases.TestShoppingListPage beforeClass -Application launched successfully
-08-10-2020 13:29:14.256 INFO  TestCases.TestShoppingListPage shoppingList_shouldDisableAddButton_WhenAmountIsNotNumber -Test passed
-08-10-2020 13:29:18.760 INFO  TestCases.TestShoppingListPage tearDown -Browser terminated
-08-10-2020 13:29:18.760 INFO  TestCases.TestShoppingListPage tearDown --------------------------------------

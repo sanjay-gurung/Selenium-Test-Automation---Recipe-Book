@@ -1,0 +1,16 @@
+08-13-2020 19:46:25.955 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-13-2020 19:46:26.029 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (002b5d68f9b3bf4d51c2ee0b597d17e1)] -> xpath: //button[contains(.,'New Recipe')]]
+08-13-2020 19:46:26.689 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-13-2020 19:46:26.690 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------
+08-13-2020 19:46:29.687 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-13-2020 19:46:29.719 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (145e5a6bf943e08b1c33b0661ca953ee)] -> xpath: //button[contains(.,'New Recipe')]]
+08-13-2020 19:46:30.676 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-13-2020 19:46:30.676 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------
+08-13-2020 19:46:33.365 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-13-2020 19:46:33.390 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (f9440be7c9a53ab4d22995fc8c1a107d)] -> xpath: //button[contains(.,'New Recipe')]]
+08-13-2020 19:46:34.361 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-13-2020 19:46:34.362 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------
+08-13-2020 19:46:37.068 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-13-2020 19:46:37.093 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (239d3d0301ec555e01685df59132d99a)] -> xpath: //button[contains(.,'New Recipe')]]
+08-13-2020 19:46:37.998 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-13-2020 19:46:37.998 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------

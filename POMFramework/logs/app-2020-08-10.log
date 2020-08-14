@@ -1,7 +1,0 @@
-08-10-2020 11:08:36.269 INFO  TestCases.TestShoppingListPage beforeClass -Application launched successfully
-08-10-2020 11:08:37.031 ERROR TestCases.TestShoppingListPage shoppingList_shouldAddNewIngredient_whenValidNameAndAmountEntered -Test error message
-08-10-2020 11:08:37.031 FATAL TestCases.TestShoppingListPage shoppingList_shouldAddNewIngredient_whenValidNameAndAmountEntered -Test fatal message
-08-10-2020 11:08:37.032 DEBUG TestCases.TestShoppingListPage shoppingList_shouldAddNewIngredient_whenValidNameAndAmountEntered -Test debug message
-08-10-2020 11:08:37.032 INFO  TestCases.TestShoppingListPage shoppingList_shouldAddNewIngredient_whenValidNameAndAmountEntered -Test info message
-08-10-2020 11:08:39.696 INFO  TestCases.TestShoppingListPage tearDown -Browser terminated
-08-10-2020 11:08:39.697 INFO  TestCases.TestShoppingListPage tearDown --------------------------------------

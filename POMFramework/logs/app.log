@@ -1,16 +1,26 @@
-08-10-2020 21:12:49.543 INFO  TestCases.TestShoppingListPage - beforeClass - Application launched successfully
-08-10-2020 21:12:49.621 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (dcaf37b312ae7c283b8a0620f8f278cf)] -> xpath: //a[contains(text(), 'Shopping List')]]
-08-10-2020 21:12:49.996 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (dcaf37b312ae7c283b8a0620f8f278cf)] -> xpath: //button[contains(text(),'Add')]]
-08-10-2020 21:12:50.101 ERROR main.utilities.TestNGListener - onTestFailure - Test failed --> [TestResult name=test_shouldAddNewIngredient_whenValidNameAndAmountEntered status=FAILURE method=TestShoppingListPage.test_shouldAddNewIngredient_whenValidNameAndAmountEntered()[pri:1, instance:TestCases.TestShoppingListPage@1ff4931d] output={null}]
-08-10-2020 21:12:50.405 INFO  TestCases.TestShoppingListPage - tearDown - Browser terminated
-08-10-2020 21:12:50.406 INFO  TestCases.TestShoppingListPage - tearDown - ----------------------------------------------
-08-10-2020 21:12:53.886 INFO  TestCases.TestShoppingListPage - beforeClass - Application launched successfully
-08-10-2020 21:12:53.916 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (d4608d8575321e4a5d2515084e8d34a9)] -> xpath: //a[contains(text(), 'Shopping List')]]
-08-10-2020 21:12:54.222 INFO  TestCases.TestShoppingListPage - test_shouldDisableAddButton_WhenOnlyNameIsEngered - Test passed
-08-10-2020 21:12:54.416 INFO  TestCases.TestShoppingListPage - tearDown - Browser terminated
-08-10-2020 21:12:54.416 INFO  TestCases.TestShoppingListPage - tearDown - ----------------------------------------------
-08-10-2020 21:12:58.013 INFO  TestCases.TestShoppingListPage - beforeClass - Application launched successfully
-08-10-2020 21:12:58.049 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (8fd1eff4c96b01e0e00de30d3c9fc990)] -> xpath: //a[contains(text(), 'Shopping List')]]
-08-10-2020 21:12:58.415 INFO  TestCases.TestShoppingListPage - test_shouldDisableAddButton_WhenAmountIsNotNumber - Test passed
-08-10-2020 21:12:58.668 INFO  TestCases.TestShoppingListPage - tearDown - Browser terminated
-08-10-2020 21:12:58.668 INFO  TestCases.TestShoppingListPage - tearDown - ----------------------------------------------
+08-13-2020 20:04:38.366 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-13-2020 20:04:38.434 INFO  TestCases.TestRecipesPage - test_shouldDisplayText_whenUserInLandingPage - Test Passed
+08-13-2020 20:04:38.585 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-13-2020 20:04:38.585 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------
+08-13-2020 20:04:41.126 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-13-2020 20:04:41.540 INFO  TestCases.TestRecipesPage - test_shouldDisplayRecipesList_whenUserInLandingPage - Test Passed
+08-13-2020 20:04:41.725 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-13-2020 20:04:41.726 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------
+08-13-2020 20:04:44.142 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-13-2020 20:04:44.168 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (1ec21164983b9369fe2e86442e626038)] -> xpath: //button[contains(.,'New Recipe')]]
+08-13-2020 20:04:44.843 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (1ec21164983b9369fe2e86442e626038)] -> xpath: //button[contains(text(), 'Save')]]
+08-13-2020 20:04:44.974 INFO  TestCases.TestRecipesPage - test_shouldAddNewRecipe_whenCorrectValuesEntered - Test Passed
+08-13-2020 20:04:45.100 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-13-2020 20:04:45.102 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------
+08-13-2020 20:04:48.585 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-13-2020 20:04:48.610 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (5454211ef748f9dad700b0aef96ad031)] -> xpath: //button[contains(.,'New Recipe')]]
+08-13-2020 20:04:49.612 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-13-2020 20:04:49.613 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------
+08-13-2020 20:04:52.186 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-13-2020 20:04:52.211 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (f4eafa848133814781b5a1b7eed2b99b)] -> xpath: //button[contains(.,'New Recipe')]]
+08-13-2020 20:04:53.141 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-13-2020 20:04:53.141 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------
+08-13-2020 20:04:55.727 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-13-2020 20:04:55.749 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (bc855f18c8770918e800cdec1718656d)] -> xpath: //button[contains(.,'New Recipe')]]
+08-13-2020 20:04:56.692 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-13-2020 20:04:56.693 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------

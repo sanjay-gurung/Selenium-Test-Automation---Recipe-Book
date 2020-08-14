@@ -1,7 +1,0 @@
-08-10-2020 10:56:08.827 INFO  beforeClass -Application launched successfully
-08-10-2020 10:56:09.662 ERROR shoppingList_shouldAddNewIngredient_whenValidNameAndAmountEntered -Test error message
-08-10-2020 10:56:09.662 FATAL shoppingList_shouldAddNewIngredient_whenValidNameAndAmountEntered -Test fatal message
-08-10-2020 10:56:09.663 DEBUG shoppingList_shouldAddNewIngredient_whenValidNameAndAmountEntered -Test debug message
-08-10-2020 10:56:09.663 INFO  shoppingList_shouldAddNewIngredient_whenValidNameAndAmountEntered -Test info message
-08-10-2020 10:56:13.368 INFO  tearDown -Browser terminated
-08-10-2020 10:56:13.369 INFO  tearDown --------------------------------------

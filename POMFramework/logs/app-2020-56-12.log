@@ -1,0 +1,6 @@
+08-12-2020 23:56:21.422 INFO  TestCases.TestShoppingListPage - beforeClass - Application launched successfully
+08-12-2020 23:56:21.523 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (10102aa7ecaed78d1566c6c5578708dd)] -> xpath: //a[contains(text(), 'Shopping List')]]
+08-12-2020 23:56:22.084 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (10102aa7ecaed78d1566c6c5578708dd)] -> xpath: //button[contains(text(),'Add')]]
+08-12-2020 23:56:22.240 ERROR main.utilities.TestNGListener - onTestFailure - Test failed --> [TestResult name=test_shouldAddNewIngredient_whenValidNameAndAmountEntered status=FAILURE method=TestShoppingListPage.test_shouldAddNewIngredient_whenValidNameAndAmountEntered()[pri:1, instance:TestCases.TestShoppingListPage@1ff4931d] output={null}]
+08-12-2020 23:56:22.843 INFO  TestCases.TestShoppingListPage - tearDown - Browser terminated
+08-12-2020 23:56:22.843 INFO  TestCases.TestShoppingListPage - tearDown - ----------------------------------------------

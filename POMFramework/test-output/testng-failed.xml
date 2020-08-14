@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestCases.TestShoppingListPage">
+      <class name="TestCases.TestRecipesPage">
         <methods>
-          <include name="tearDown"/>
-          <include name="test_shouldAddNewIngredient_whenValidNameAndAmountEntered"/>
           <include name="beforeClass"/>
+          <include name="test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- TestCases.TestShoppingListPage -->
+      </class> <!-- TestCases.TestRecipesPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

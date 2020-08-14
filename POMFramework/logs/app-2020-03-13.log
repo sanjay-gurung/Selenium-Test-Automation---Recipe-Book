@@ -1,0 +1,7 @@
+08-13-2020 18:03:20.745 ERROR main.utilities.TestNGListener - onTestFailure - Test failed --> [TestResult name=test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother status=FAILURE method=TestRecipesPage.test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.TestRecipesPage@c0c2f8d] output={null}]
+08-13-2020 18:03:28.166 INFO  TestCases.TestRecipesPage - beforeClass - Application launched successfully
+08-13-2020 18:03:28.215 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (b0cb9fdd37e8405ae4903e71d3668322)] -> xpath: //button[contains(.,'New Recipe')]]
+08-13-2020 18:03:28.960 INFO  main.utilities.WebEventListener - beforeClickOn - Trying to click on: [[ChromeDriver: chrome on MAC (b0cb9fdd37e8405ae4903e71d3668322)] -> xpath: //button[contains(text(), 'Save')]]
+08-13-2020 18:03:29.114 INFO  TestCases.TestRecipesPage - test_shouldAddNewRecipe_whenCorrectValuesEntered - Test Passed
+08-13-2020 18:03:29.323 INFO  TestCases.TestRecipesPage - afterClass - Browser terminated
+08-13-2020 18:03:29.323 INFO  TestCases.TestRecipesPage - afterClass - ----------------------------------------------
