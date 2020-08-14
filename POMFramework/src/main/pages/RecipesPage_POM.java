@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import main.utilities.TestUtilities;
+
 public class RecipesPage_POM {
 	WebDriver driver;
 	
@@ -31,6 +33,8 @@ public class RecipesPage_POM {
 	
 	By saveButton = By.xpath("//button[contains(text(), 'Save')]");
 	
+	By lastRecipeInTheList = By.xpath("//div[@class='col-xs-12' and position()=last()]//app-recipe-item//h4");
+	
 	
 	// Constructor
 	public RecipesPage_POM(WebDriver driver) {
@@ -38,11 +42,19 @@ public class RecipesPage_POM {
 	}
 	
 
-	// Actions:
+	// Getters:
 	
 	public String getLandingPageText() {
 		return driver.findElement(text).getText();
 	}
+	
+	public WebElement getLastRecipeInTheList() {
+		TestUtilities.waitForElementToBeVisible(driver, lastRecipeInTheList, 3);  //calling Explicit Wait method from TestUtilities class
+		return driver.findElement(lastRecipeInTheList);
+	}
+		
+	
+	// Actions:
 	
 	public boolean recipesListDisplayed() {
 		return driver.findElement(recipesList).isDisplayed();

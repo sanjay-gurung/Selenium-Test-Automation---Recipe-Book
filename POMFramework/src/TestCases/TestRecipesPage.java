@@ -52,14 +52,14 @@ public class TestRecipesPage extends BaseSetup {
  
   
   @Test(priority=3)
-  public void test_shouldAddNewRecipe_whenCorrectValuesEntered() {
+  public void test_shouldAddNewRecipe_whenCorrectValuesEntered() throws Exception {
 	  recipesPage.navigateToNewRecipe();
 	  recipesPage.enterRecipeName("momo");
 	  recipesPage.enterRecipeUrl("dummy momo image url");
 	  recipesPage.enterRecipeDescription("testy nepali cuisine");
 	  recipesPage.clickSaveButton();
-	  String newRecipe = driver.findElement(By.xpath("//h4[contains(text(), 'momo')]")).getText();
-	  Assert.assertEquals(newRecipe, "momo");
+	  String newRecipeName = recipesPage.getLastRecipeInTheList().getText();
+	  Assert.assertEquals(newRecipeName, "momo");
 	  log.info("Test Passed");
   }
   
@@ -76,11 +76,16 @@ public class TestRecipesPage extends BaseSetup {
   }
   
   @Test(priority=4, dataProvider="getTestDataForNewRecipe")
-  public void test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother(String name, String url, String description) {
+  public void test_shouldAddMultipleNewRecipes_whenCorrectValuesEnteredOneAfterAnother(String name, String url, String description) throws Exception {
 	  recipesPage.navigateToNewRecipe();
 	  recipesPage.enterRecipeName(name);
 	  recipesPage.enterRecipeUrl(url);
 	  recipesPage.enterRecipeDescription(description);
+	  recipesPage.clickSaveButton();
+	  String newRecipeName = recipesPage.getLastRecipeInTheList().getText();
+	  Assert.assertEquals(newRecipeName, name);
+	  log.info("Test Passed");
+	  
   }
   
   @AfterMethod

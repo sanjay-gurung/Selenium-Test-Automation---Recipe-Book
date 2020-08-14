@@ -16,8 +16,13 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.apache.commons.compress.archivers.dump.InvalidFormatException;
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import main.base.BaseSetup;
 
@@ -25,7 +30,7 @@ public class TestUtilities extends BaseSetup {
 	
 	public static String EXCEL_SHEET_PATH = "/Users/sanjaygurung/git/Selenium-Test-Automation---Recipe-Book/POMFramework/src/main/testdata/TestData_New_Recipes.xlsx";
 	public static Workbook book;
-	public static Sheet sheet;
+	
 	
 	// Function to take screenshot. This function should be called in the event listener method. Eg: It is being called in TestNGListerner's onTestFailure().
 	public static void takeScreenshot(String testName) throws IOException {
@@ -35,6 +40,7 @@ public class TestUtilities extends BaseSetup {
 		String dateTime = new SimpleDateFormat("_ddMMyyyy_HHmmss").format(new Date());
 		FileUtils.copyFile(srcFile, new File(currentDir + "/screenshots/" + testName + dateTime + ".png"));
 	}
+	
 	
 	// Function to read data from Excel file
 	public static Object[][] getTestDataFromExcel(String sheetName) throws Exception {
@@ -64,4 +70,15 @@ public class TestUtilities extends BaseSetup {
 		wb.close();
 		return arrayExcelData;
 	}
+	
+	
+	// Explicit wait for element to be visible
+	public static WebElement waitForElementToBeVisible(WebDriver driver, By locator, int timeout) {
+		WebDriverWait wait = new WebDriverWait(driver, timeout);
+		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+		return element;
+	}
+	
+	
+	
 }
